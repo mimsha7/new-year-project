@@ -1,0 +1,44 @@
+*{
+    /* max-width: 1140px; */
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    background-color: #f1f1f1;
+}
+
+.banner_img{
+    width: 50%;
+    height: 100%;
+    padding-right: 10px;
+}
+.banner_content{
+    justify-items: right;    
+    background-color: #f1f1f1;
+}
+.banner_title{
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+.banner_description{
+    font-size: 11px;
+    padding-left: 300px;
+    padding-bottom: 5px;
+    line-height: 1.5;
+    color: #444343;
+}
+.banner_btn{
+    padding: 12px 20px;
+    background-color: #F15B22;
+    color: #ffffff;
+    border: 1px solid;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+    display: inline-block;
+    transition: 0.5s;
+}
