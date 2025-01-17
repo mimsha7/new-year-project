@@ -106,7 +106,7 @@ main {
 
 .my-plans {
   height: 100%;
-  padding-bottom: 50px;
+  padding-bottom: 20px;
 }
 .plan-info {
   display: flex;
@@ -151,7 +151,6 @@ main {
   border-radius: 8px;
   justify-content: center;
   padding: 60px;
-  margin-top: 20px;
 }
 .ads-info {
   display: flex;
@@ -189,6 +188,7 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: start;
+  margin-top: 20px;
 }
 .footer-container {
   width: 317px;
