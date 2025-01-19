@@ -45,8 +45,8 @@ header {
   cursor: pointer;
 }
 .btn{
-    text-align: right;
-    padding: 5px 0;
+  text-align: right;
+  padding: 5px 0;
 }
 main {
   max-width: 1141px;
@@ -169,7 +169,7 @@ main {
   font-size: 40px;
   font-weight: bold;
   color: #ffffff;
-  padding: 0;
+  margin-bottom: 15px;
 }
 .ads-btn {
   background-color: #ffffff;
@@ -177,18 +177,20 @@ main {
   padding: 15px 25px;
   border-radius: 5px;
   border: none;
-  text-decoration: none;
+  text-align: center;
   font-size: 16px;
   font-weight: 600;
+  cursor: pointer;
 }
 footer {
   background-color: #000000;
   color: #ffffff;
-  padding: 20px 0;
   display: flex;
   justify-content: space-around;
   align-items: start;
-  margin-top: 20px;
+  padding: 20px 0;
+  margin: 30px 0 0 0;
+
 }
 .footer-container {
   width: 317px;
