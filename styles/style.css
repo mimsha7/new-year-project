@@ -6,6 +6,7 @@ header {
   width: 100%;
   background-image: url("../images/banner/banner1.png");
   height: 100vh;
+  background-repeat: no-repeat;
 }
 .hero-container {
   display: flex;
@@ -229,12 +230,13 @@ footer {
   color: #ffffff;
   padding: 0 10px;
 }
-
-@media Screen and (max-width:500px) {
+@media screen and (max-width: 500px) {
   header {
-    height: 100%;
+    height: auto;
     background-size: cover;
-    background-position: 25%;
+    background-position: 40%;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
   }
   .hero-container {
     padding-right: 0;
@@ -242,13 +244,16 @@ footer {
   .hero-title {
     width: 100%;
     font-size: 25px;
-    padding-top: 100px;
+    padding-top: 50px;
   }
   .hero-description {
-    font-size: 10px;
+    width: 70%;
+    font-size: 14px;
+    padding-bottom: 0;
   }
   .hero-btn {
-    font-size: 10px;
+    padding: 10px 10px;
+    font-size: 14px;
   }
   .failure {
     flex-direction: column;
@@ -263,27 +268,29 @@ footer {
   }
   .failure_details p {
     width: 100%;
-    font-size: 12px;
+    font-size: 14px;
   }
   .failure_img {
     width: 70%;
-    height: 527px;
+    height: auto;
   }
   .failure_img img {
-    width: 100%;
+    width: 90%;
     height: auto;
   }
   .failure_details ul {
     list-style: none;
     padding: 0;
-    transform: translate(25%, 7%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
   }
   .failure_details ul li {
     display: flex;
     align-items: center;
     margin-bottom: 10px;
-    font-size: 12px;
+    font-size: 14px;
   }
   .failure_details ul li::before {
     content: "✔";
@@ -291,7 +298,7 @@ footer {
     margin-right: 10px;
   }
   .my-plans {
-    height: 100%;
+    height: auto;
     padding-bottom: 20px;
   }
   .plan-info {
@@ -299,7 +306,7 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 40px;
+    padding: 20px;
   }
   .my-plans .title {
     text-align: center;
@@ -309,21 +316,20 @@ footer {
   .plans {
     text-align: center;
   }
-  .plans img{
-    text-align: center;  
+  .plans img {
+    text-align: center;
     padding: 20px 0;
   }
   .plan-details {
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
-    line-height: 5px;
+    line-height: 1.5;
   }
   .plan-details h2 {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: bold;
     color: #000000;
-    line-height: auto;
     margin-bottom: 10px;
   }
   .ads {
@@ -332,19 +338,19 @@ footer {
   .ads-info {
     display: flex;
     flex-direction: column;
-    width: 300px;
+    width: 100%;
     justify-content: center;
     text-align: center;
     align-items: center;
-    padding-bottom: 40px;
-    padding-left: 25px;
+    padding-bottom: 20px;
+    padding-left: 10px;
   }
   .ads-title {
     display: flex;
     flex-direction: column;
-    width: 360px;
+    width: 100%;
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
     color: #ffffff;
     margin-bottom: 15px;
@@ -356,7 +362,7 @@ footer {
     border-radius: 5px;
     border: none;
     text-align: center;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 600;
     cursor: pointer;
   }
@@ -366,25 +372,24 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items: center;
+    align-items: start;
     padding: 20px 0;
-    /* margin: 30px 0 0 0; */
-  
   }
-  footer h2{
+  footer h2 {
     font-size: 20px;
   }
-  footer p{
-    font-size: 12px;
+  footer p {
+    font-size: 14px;
   }
   .footer-container {
-    width: 317px;
-    padding: 40px;
+    width: 80%;
+    padding: 20px;
   }
   .subscribe {
     align-items: center;
     justify-content: start;
-    padding-top: 50px;
+    padding-top: 20px;
+    padding-left: 20px;
   }
   .subscribe-btn {
     background-color: #ffffff;
@@ -393,7 +398,7 @@ footer {
     border-radius: 5px;
     border: none;
     text-decoration: none;
-    font-size: 10px;
+    font-size: 14px;
     font-weight: 600;
     cursor: pointer;
   }
@@ -402,15 +407,15 @@ footer {
     align-items: center;
   }
   .subscribe-info input {
-    width: 320px;
-    height: 60px;
+    width: 100%;
+    height: 40px;
     background-color: #000000;
     color: #ffffff;
     border: 1px solid wheat;
     border-radius: 5px;
   }
   .subscribe-info .p {
-    font-size: 10px;
+    font-size: 14px;
     color: #ffffff;
     padding: 0 10px;
   }
