@@ -107,7 +107,7 @@ main {
 
 .my-plans {
   height: 100%;
-  padding-bottom: 20px;
+  padding-bottom: 50px;
 }
 .plan-info {
   display: flex;
@@ -132,7 +132,7 @@ main {
   display: flex;
   flex-direction: column;
   margin-bottom: 20px;
-  line-height: 5px;
+  line-height: 1.3;
 }
 .plan-details h2 {
   font-size: 30px;
@@ -265,6 +265,9 @@ footer {
   }
   .failure_details h1 {
     font-size: 20px;
+    /* white-space: nowrap;
+    text-overflow: ellipsis; */
+    display: inline;
   }
   .failure_details p {
     width: 100%;
@@ -273,6 +276,7 @@ footer {
   .failure_img {
     width: 70%;
     height: auto;
+    padding-bottom: 20px;
   }
   .failure_img img {
     width: 90%;
@@ -324,13 +328,19 @@ footer {
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
-    line-height: 1.5;
+    line-height: 1;
   }
   .plan-details h2 {
     font-size: 16px;
     font-weight: bold;
     color: #000000;
-    margin-bottom: 10px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  .plan-details p {
+    font-size: 14px;
+    color: #737272;
+    margin-bottom: 0;
   }
   .ads {
     margin: 0 auto;
