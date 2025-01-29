@@ -150,7 +150,7 @@ main {
     url("../images/watch.png") no-repeat center;
   border-radius: 8px;
   justify-content: center;
-  padding: 60px;
+  padding: 0 60px;
 }
 .ads-info {
   display: flex;
@@ -228,4 +228,190 @@ footer {
   font-size: 14px;
   color: #ffffff;
   padding: 0 10px;
+}
+
+@media Screen and (max-width:500px) {
+  header {
+    height: 100%;
+    background-size: cover;
+    background-position: 25%;
+  }
+  .hero-container {
+    padding-right: 0;
+  }
+  .hero-title {
+    width: 100%;
+    font-size: 25px;
+    padding-top: 100px;
+  }
+  .hero-description {
+    font-size: 10px;
+  }
+  .hero-btn {
+    font-size: 10px;
+  }
+  .failure {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .failure_details {
+    text-align: center;
+  }
+  .failure_details h1 {
+    font-size: 20px;
+  }
+  .failure_details p {
+    width: 100%;
+    font-size: 12px;
+  }
+  .failure_img {
+    width: 70%;
+    height: 527px;
+  }
+  .failure_img img {
+    width: 100%;
+    height: auto;
+  }
+  .failure_details ul {
+    list-style: none;
+    padding: 0;
+    transform: translate(25%, 7%);
+    align-items: center;
+  }
+  .failure_details ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 12px;
+  }
+  .failure_details ul li::before {
+    content: "✔";
+    color: #28a745;
+    margin-right: 10px;
+  }
+  .my-plans {
+    height: 100%;
+    padding-bottom: 20px;
+  }
+  .plan-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+  }
+  .my-plans .title {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .plans {
+    text-align: center;
+  }
+  .plans img{
+    text-align: center;  
+    padding: 20px 0;
+  }
+  .plan-details {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    line-height: 5px;
+  }
+  .plan-details h2 {
+    font-size: 14px;
+    font-weight: bold;
+    color: #000000;
+    line-height: auto;
+    margin-bottom: 10px;
+  }
+  .ads {
+    margin: 0 auto;
+  }
+  .ads-info {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 40px;
+    padding-left: 25px;
+  }
+  .ads-title {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 15px;
+  }
+  .ads-btn {
+    background-color: #ffffff;
+    color: #f15b22;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  footer {
+    background-color: #000000;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+    /* margin: 30px 0 0 0; */
+  
+  }
+  footer h2{
+    font-size: 20px;
+  }
+  footer p{
+    font-size: 12px;
+  }
+  .footer-container {
+    width: 317px;
+    padding: 40px;
+  }
+  .subscribe {
+    align-items: center;
+    justify-content: start;
+    padding-top: 50px;
+  }
+  .subscribe-btn {
+    background-color: #ffffff;
+    color: #f15b22;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .subscribe-info {
+    padding-bottom: 10px;
+    align-items: center;
+  }
+  .subscribe-info input {
+    width: 320px;
+    height: 60px;
+    background-color: #000000;
+    color: #ffffff;
+    border: 1px solid wheat;
+    border-radius: 5px;
+  }
+  .subscribe-info .p {
+    font-size: 10px;
+    color: #ffffff;
+    padding: 0 10px;
+  }
 }
